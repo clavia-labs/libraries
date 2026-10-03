@@ -8,7 +8,7 @@
     "./*": "./src/*.ts"
   },
   "dependencies": {
-    "@clavia/tardigrade-core": "^0.41.0",
+    "@clavia/tardigrade-core": "^0.0.1",
     "effect": "4.0.0-rc.115"
   },
   "scripts": {
