@@ -1,0 +1,17 @@
+{
+  "name": "@clavia/libraries",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*.ts"
+  },
+  "dependencies": {
+    "@clavia/tardigrade-core": "^0.41.0",
+    "effect": "4.0.0-rc.115"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}
