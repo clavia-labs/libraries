@@ -1,5 +1,5 @@
 {
-  "name": "@clavia/libraries",
+  "name": "@tardie/library",
   "version": "0.1.0",
   "private": false,
   "type": "module",
@@ -12,6 +12,25 @@
     "effect": "4.0.0-rc.115"
   },
   "scripts": {
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "publish:dry": "npm pack --dry-run"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clavia-labs/libraries.git",
+    "directory": "."
+  },
+  "homepage": "https://github.com/clavia-labs/libraries#readme",
+  "files": [
+    "src",
+    "README.md",
+    "tsconfig.json"
+  ],
+  "engines": {
+    "bun": ">=1.4.0",
+    "node": ">=20"
   }
 }
